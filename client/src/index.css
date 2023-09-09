@@ -30,7 +30,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 14px;
 }
 
 body {
@@ -516,3 +516,10 @@ a:hover {
   height: 2px;
   background-color: #fff;
 }
+
+/* Style files */
+
+@import url("./styles/auth.module.css");
+@import url("./styles/Home.css");
+@import url("./styles/header.css");
+@import url("./styles/footer.css");

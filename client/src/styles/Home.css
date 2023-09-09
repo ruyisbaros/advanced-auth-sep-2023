@@ -8,16 +8,16 @@
 
 .hero-text {
   width: 50%;
-  & > * {
-    color: #333;
-    margin-bottom: 2rem;
-  }
-  & > h2 span {
-    display: block;
-  }
-  & .hero-buttons a {
-    color: #fff;
-  }
+}
+.hero-text .hero-buttons a {
+  color: #fff;
+}
+.hero-text > * {
+  color: #333;
+  margin-bottom: 2rem;
+}
+.hero-text > h2 span {
+  display: block;
 }
 .hero-image {
   width: 50%;
